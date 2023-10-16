@@ -7,17 +7,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <P class="channel-name">Coding Imagination</P>
-  <div class = "container">
-    <h1> Generate A <br> <span> Random Password </span> </h1>
-    <div class = "display">
-        <input type = 'text' id="password" placeholder="Password">
-        <img src="img/copy icon 1.png" alt="COPY">
+  <p class="channel-name">Coding Imagination</p> <!-- This is a paragraph with the class "channel-name" -->
+  <div class="container">
+    <h1>Generate A <br><span>Random Password</span></h1> <!-- This is a heading with a line break and a <span> element for styling -->
+    <div class="display">
+      <input type="text" id="password" placeholder="Password"> <!-- Input field with ID "password" for displaying the generated password -->
+      <img src="img/copyicon.png" alt="COPY" onclick="copyPassword()"> <!-- Image (copy icon) with a click event to trigger the "copyPassword" function -->
     </div>
-    <button> <img src="img/generate icon.png" alt="">Generate Password</button>
+    <button onclick="cPass()">Generate Password</button> <!-- Button to trigger the "cPass" function for generating passwords -->
   </div>
 
-
-  <script src="script.js"></script>
+  <script src="script.js"> <!-- Reference to an external JavaScript file named "script.js" -->
+  </script>
 </body>
 </html>

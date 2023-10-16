@@ -1,15 +1,19 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family : 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
-body{
-  background:linear-gradient(220deg, #454545, #f7f7f7, rgba(62, 62, 62, 0.89));
-  color: #7d7b70;
+
+body {
+  background: linear-gradient(180deg, #ffffff, #9d9d9d, rgba(36, 36, 36, 0.89));
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Add this line to keep the background fixed */
+  background-size: cover; /* Add this line to cover the entire viewport */
+  color: #7d7b70;
 }
-.container{
+
+.container {
   margin: 12%;
   width: 90%;
   max-width: 700px;
@@ -21,7 +25,6 @@ body{
   margin-top: 15px;
   margin-bottom: 30px;
   background: #ffffff;
-  color: #333;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +36,7 @@ body{
   font-size: 45px;
 }
 .container h1 span {
-  color: #2b4136;
+  color: #073450c8;
   border-bottom: 4px solid #838785;
 }
 
@@ -41,6 +44,7 @@ body{
   width: 30px;
   cursor: pointer;
   margin-right: 5px;
+  margin-left: 10px;
   transition: 0.30s;
 }
 .display img:hover{
@@ -81,7 +85,6 @@ body{
 .container button:active{
   opacity: 0.5;
   color:rgb(0, 0, 0);
-  background: transparent;
 }
 .container button img{
   width : 28px;
